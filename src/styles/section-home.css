@@ -1,0 +1,132 @@
+@import url('https://fonts.cdnfonts.com/css/valorant');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Oswald:wght@700&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container-section {
+   width: 100%;
+   color: #fff;
+   background-color: black;
+   display: flex;
+   flex-direction: column;
+}
+
+.hero-section {
+   position: relative;
+   width: 100%;
+   height: 700px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.overlay {
+   width: 100%;
+   height: 700px;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rgba(0, 0, 0, 0.5);
+   z-index: 5;
+}
+
+.video-section {
+   width: 90%;
+   position: absolute;
+}
+
+.title-section {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 120px;
+   color: white;
+   z-index: 10;
+   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+   text-align: center;
+}
+
+.welcome {
+   font-size: 120px;
+   font-family: 'VALORANT', sans-serif;
+}
+
+.span {
+   font-family: "Afacad Flux", sans-serif;
+   font-size: 32px;
+}
+
+/* Responsiveness */
+@media (max-width: 480px) {
+   .hero-section {
+      height: 320px;
+   }
+
+   .video-section {
+      height: 320px;
+   }
+
+   .overlay {
+      height: 320px;
+   }
+
+   .welcome {
+      font-size: 32px;
+   }
+
+   .span {
+      font-size: 18px;
+   }
+}
+
+@media (min-width: 430px) and (max-width: 650px) {
+   .hero-section {
+      height: 380px;
+   }
+
+   .video-section {
+      height: 380px;
+   }
+
+   .overlay {
+      height: 380px;
+   }
+
+   .welcome {
+      font-size: 52px;
+   }
+
+   .span {
+      font-size: 18px;
+   }
+}
+
+@media (min-width: 850px) and (max-width: 1024px) {
+   .hero-section {
+      height: 580px;
+   }
+
+   .video-section {
+      height: 580px;
+   }
+
+   .overlay {
+      height: 580px;
+   }
+
+   .welcome {
+      font-size: 82px;
+   }
+
+   .span {
+      font-size: 28px;
+   }
+}
