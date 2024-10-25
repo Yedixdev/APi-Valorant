@@ -2,207 +2,201 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Oswald:wght@700&family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
- }
- 
- #weValorant {
-   width: 100%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background-color: #ece8e3;
-   padding: 50px 0;
- }
- 
- .container-we {
-   width: 90%;
-   max-width: 1200px;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
-   gap: 40px;
- }
- 
- /* Sección de texto */
- .section-valo-1 {
-   flex: 1;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   gap: 20px;
- }
- 
- .title-valo {
-   font-size:46px;   
-   font-family: 'Oswald', sans-serif;
-   text-transform: uppercase;
-   font-weight: 900;
-   letter-spacing: -2px;
-   color: #ff283a;
- }
- 
- .description-valo {
-   font-size: 20px;
-   font-family: "Afacad Flux", sans-serif;
-   color: #333;
- }
- 
- .subtitle-valo {
-   font-size: 24px;
-   font-family: 'Oswald', sans-serif;
-   color: #555;
-   margin-bottom: 10px;
-   text-transform: uppercase;
- }
- 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.weValorant{
+  width: 100%; 
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: 	#ece8e3;
+  padding: 0 20px;
+}
+
+.container-we {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.section-valo-1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.title-valo{
+font-size: 56px;
+font-family: 'Oswald', sans-serif;
+text-transform: uppercase;
+text-align: center;
+font-weight: 900;
+letter-spacing: -2px;
+color: #ff283a;
+}
+.subtitle-valo {
+font-size: 34px;
+font-family: 'Oswald', sans-serif;
+color: #555;
+margin-bottom: 10px;
+text-align: center;
+}
+
+.description-valo{
+width: 650px;
+font-size: 20px;
+font-family: "Afacad Flux", sans-serif;
+color: #555;
+text-align: center;
+}
 
 .btn-valo {
-   padding: 15px 30px;
-   background-color: #ff283a;
-   color: white;
-   font-size: 16px;
-   font-family: 'VALORANT', sans-serif;
-   text-align: center;
-   cursor: pointer;
-   transition: all 0.4s ease;
-   width: fit-content;
-   text-decoration: none;
-   display: block; 
-   margin: 30px auto; 
-   position: relative;
-   overflow: hidden;
-   z-index: 1;
- }
- 
- .btn-valo:hover {
-   transform: scale(1.1); 
-   box-shadow: 0 0 15px #333;
-   background-color: #333;
- }
- .btn-valo::before {
-   content: "";
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   width: 300%;
-   height: 300%;
-   transition: width 0.4s ease, height 0.4s ease, top 0.4s ease, left 0.4s ease, background-color 0.4 ease;
-   border-radius: 50%;
-   z-index: -1; 
-   transform: translate(-50%, -50%);
- }
- 
- .btn-valo:hover::before {
-   width: 120%;
-   height: 120%;
-   top: 50%;
-   left: 50%;
-   background-color: #333;
+  padding: 20px 40px;
+  background-color: #ff283a;
+  color: white;
+  font-size: 20px;
+  font-family: 'VALORANT', sans-serif;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  width: fit-content;
+  text-decoration: none;
+  display: block; 
+  margin: 30px auto; 
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
 
- }
+.btn-valo:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 0 15px #333;
+  background-color: #333;
+}
+.btn-valo::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  transition: width 0.4s ease, height 0.4s ease, top 0.4s ease, left 0.4s ease, background-color 0.4 ease;
+  border-radius: 50%;
+  z-index: -1; 
+  transform: translate(-50%, -50%);
+}
 
- .section-valo-2 {
-   flex: 1;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   color: white;
-   font-size: 24px;
-   height: 400px;
- }
- 
+.btn-valo:hover::before {
+  width: 120%;
+  height: 120%;
+  top: 50%;
+  left: 50%;
+  background-color: #333;
 
- @media (max-width: 768px) {
-   .container-we {
-     flex-direction: column;
-     gap: 20px;
-   }
- 
-   .section-valo-2 {
-     width: 100%;
-     height: 200px;
-   }
- }
- 
- /* Media queries para responsive */
+}
 
-/* Pantallas medianas, tablets (1024px a 768px) */
+.section-valo-2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  height: 400px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); 
+}
+
+@media (max-width: 768px) {
+  .container-we {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .section-valo-2 {
+    width: 100%;
+    height: 200px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
-   .container-we {
-     flex-direction: column;
-     gap: 20px;
-   }
- 
-   .title-valo {
-     font-size: 40px;
-   }
- 
-   .description-valo {
-     font-size: 14px;
-   }
- 
-   .section-valo-2 {
-     height: 350px;
-   }
- }
- 
- /* Pantallas pequeñas, móviles (768px a 480px) */
- @media screen and (max-width: 768px) {
-   .title-valo {
-     font-size: 36px;
-   }
- 
-   .description-valo {
-     font-size: 14px;
-     text-align: justify;
-   }
- 
-   .subtitle-valo {
-     font-size: 22px;
-   }
- 
-   .btn-valo {
-     font-size: 14px;
-     padding: 10px 25px;
-   }
- 
-   .section-valo-2 {
-     height: 300px;
-   }
- }
- 
- /* Móviles más pequeños (480px a 320px) */
- @media screen and (max-width: 480px) {
-   .container-we {
-     width: 100%;
-   }
- 
-   .title-valo {
-     font-size: 28px;
-     text-align: center;
-   }
- 
-   .description-valo {
-     font-size: 12px;
-     text-align: justify;
-   }
- 
-   .subtitle-valo {
-     font-size: 18px;
-     text-align: center;
-   }
- 
-   .btn-valo {
-     font-size: 12px;
-     padding: 8px 20px;
-   }
- 
-   .section-valo-2 {
-     height: 250px;
-     font-size: 20px;
-   }
- }
+  .container-we {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .title-valo {
+    font-size: 40px;
+  }
+
+  .description-valo {
+    font-size: 14px;
+  }
+
+  .section-valo-2 {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title-valo {
+    font-size: 36px;
+  }
+
+  .description-valo {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .subtitle-valo {
+    font-size: 22px;
+  }
+
+  .btn-valo {
+    font-size: 14px;
+    padding: 10px 25px;
+  }
+
+  .section-valo-2 {
+    height: 300px;
+  }
+}
+
+/* Móviles más pequeños (480px a 320px) */
+@media screen and (max-width: 480px) {
+  .container-we {
+    width: 100%;
+  }
+
+  .title-valo {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .description-valo {
+    font-size: 12px;
+    text-align: justify;
+  }
+
+  .subtitle-valo {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .btn-valo {
+    font-size: 12px;
+    padding: 8px 20px;
+  }
+
+  .section-valo-2 {
+    height: 250px;
+    font-size: 20px;
+  }
+}

@@ -3,7 +3,7 @@ import welcomeVideo from "../../video/welcome.valorant.mp4";
 
 const SectionWeAre = () => {
    return (
-      <div id="weValorant">
+      <div className="weValorant">
         <div className="container-we">
           <div className="section-valo-1">
             <div className="title-valo">Somos Valorant</div>
