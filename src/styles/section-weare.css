@@ -75,6 +75,7 @@ text-align: center;
   position: relative;
   overflow: hidden;
   z-index: 1;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 
 .btn-valo:hover {
@@ -105,13 +106,13 @@ text-align: center;
 }
 
 .section-valo-2 {
+  width: 80%;
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 24px;
-  height: 400px;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); 
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 768px) {
@@ -169,7 +170,6 @@ text-align: center;
   }
 }
 
-/* Móviles más pequeños (480px a 320px) */
 @media screen and (max-width: 480px) {
   .container-we {
     width: 100%;

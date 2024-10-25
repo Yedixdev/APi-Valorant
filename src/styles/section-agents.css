@@ -48,6 +48,8 @@
    color: #FF4655;
    font-weight: bold;
    font-style: italic;
+   font-family: "Roboto", sans-serif;
+
 }
 
 .description {
@@ -55,6 +57,7 @@
    font-family: "Afacad Flux", sans-serif;
    padding: 10px;
    color: #ece8e3;
+   text-align: center;
 }
 
 .details-agent {
@@ -109,7 +112,6 @@
    transform: scale(1.1);
 }
 
-/* Responsiveness */
 @media (min-width: 430px) and (max-width: 650px) {
    .content-agent {
       flex-direction: column;

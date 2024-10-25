@@ -9,46 +9,108 @@
   box-sizing: border-box;
 }
 
+.btns-downloads {
+  width: 100%;
+  height: 80px;
+  background-color:	#ece8e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btns-downloads a {
+  font-family: "Afacad Flux", sans-serif;
+  text-decoration: none;
+  color: #ffff;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #555;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.btns-downloads a:hover {
+  background-color: #ff283a;;
+  color: #fff;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
 .container-footer{
   width: 100%;
-  height: 350px;
+  height: 500px;
   display: flex;
+  gap: 20px;
+  align-items: center;
   flex-direction: column;
-  align-items: center; 
+  background-color: #111;
 }
 
-.btns-downloads {
-   width: 100%;
-   height: 80px;
-   background-color:	#ece8e3;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 50px;
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
- }
- 
- .btns-downloads a {
-   font-family: "Afacad Flux", sans-serif;
-   text-decoration: none;
-   color: #ffff;
-   font-size: 22px;
-   font-weight: bold;
-   padding: 10px 20px;
-   background-color: #555;
-   border-radius: 8px;
-   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-   transition: all 0.3s ease;
- }
- 
- .btns-downloads a:hover {
-   background-color: #ff283a;;
-   color: #fff;
-   transform: translateY(-5px);
-   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
- }
-.container-footer {
-   background-color: #000;
+.networks-icons{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 26px;
+  color: #fff;
+  cursor: pointer;
 }
 
+.icon-footer{
+  background-color: 	#292929;
+  padding: 12px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
 
+.brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btns-footer  {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  text-decoration: none;
+  color: #ece8e3;
+  margin-top: 10px;
+}
+
+.btns-footer a{
+  text-decoration: none;
+  color: #fff;
+  font-family: "Afacad Flux", sans-serif;
+  padding: 5px 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+
+}
+
+.btns-footer a:hover{
+  background-color: #292929;
+}
+.description-footer{
+  display: flex;
+  justify-content: center;
+  font-family:  "Afacad Flux", sans-serif;
+  color: #fff;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.img-footer{
+  display: flex;
+  justify-content: center;
+}

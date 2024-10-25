@@ -28,9 +28,9 @@ const SectionAllAgents = () => {
                   </div>
                </div>
                <div className="container">
-                  <button onClick={hadleClick} className="btn-agents">
+                  <div onClick={hadleClick} className="btn-agents">
                      Conocer todos los Agentes
-                  </button >
+                  </div>
                </div>
             </div>
          </div>

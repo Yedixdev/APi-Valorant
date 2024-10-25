@@ -25,9 +25,9 @@ const SectionArms = () => {
                   </div>
                </div>
                <div className="container-btn">
-                  <button onClick={armsClick} className="btn-arms">
+                  <div onClick={armsClick} className="btn-arms">
                      Ver todas las armas
-                  </button >
+                  </div >
                </div>
             </div>
          </div>

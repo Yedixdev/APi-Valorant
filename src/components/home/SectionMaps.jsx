@@ -22,9 +22,9 @@ const SectionMaps = () => {
                   </div>
                </div>
                <div className="container-btn">
-                  <button onClick={mapsClick} className="btn-maps">
+                  <div onClick={mapsClick} className="btn-maps">
                      Ver todos los mapas
-                  </button >
+                  </div >
                </div>
             </div>
             <div className="section-map">
