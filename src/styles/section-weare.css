@@ -35,28 +35,30 @@
 }
 
 .title-valo{
-font-size: 56px;
-font-family: 'Oswald', sans-serif;
-text-transform: uppercase;
-text-align: center;
-font-weight: 900;
-letter-spacing: -2px;
-color: #ff283a;
-}
-.subtitle-valo {
-font-size: 34px;
-font-family: 'Oswald', sans-serif;
-color: #555;
-margin-bottom: 10px;
-text-align: center;
+  font-size: 56px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  letter-spacing: -2px;
+  color: #ff283a;
+  text-shadow: 2px 8px 12px rgba(81, 0, 0, 0.4);
 }
 
+.subtitle-valo {
+  font-size: 34px;
+  font-family: 'Oswald', sans-serif;
+  color: #555;
+  margin-bottom: 10px;
+  text-align: center;
+  }
+
 .description-valo{
-width: 650px;
-font-size: 20px;
-font-family: "Afacad Flux", sans-serif;
-color: #555;
-text-align: center;
+  width: 650px;
+  font-size: 20px;
+  font-family: "Afacad Flux", sans-serif;
+  color: #555;
+  text-align: center;
 }
 
 .btn-valo {
@@ -102,7 +104,6 @@ text-align: center;
   top: 50%;
   left: 50%;
   background-color: #333;
-
 }
 
 .section-valo-2 {
@@ -115,88 +116,58 @@ text-align: center;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 
-@media (max-width: 768px) {
-  .container-we {
+@media (max-width: 1024px) {
+  .weValorant {
     flex-direction: column;
-    gap: 20px;
+    height: auto;
+    padding: 20px;
   }
 
-  .section-valo-2 {
-    width: 100%;
-    height: 200px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
   .container-we {
     flex-direction: column;
     gap: 20px;
   }
 
   .title-valo {
-    font-size: 40px;
-  }
-
-  .description-valo {
-    font-size: 14px;
-  }
-
-  .section-valo-2 {
-    height: 350px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .title-valo {
-    font-size: 36px;
-  }
-
-  .description-valo {
-    font-size: 14px;
-    text-align: justify;
+    font-size: 42px;
   }
 
   .subtitle-valo {
-    font-size: 22px;
-  }
-
-  .btn-valo {
-    font-size: 14px;
-    padding: 10px 25px;
-  }
-
-  .section-valo-2 {
-    height: 300px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .container-we {
-    width: 100%;
-  }
-
-  .title-valo {
     font-size: 28px;
-    text-align: center;
   }
 
   .description-valo {
-    font-size: 12px;
-    text-align: justify;
-  }
-
-  .subtitle-valo {
+    width: 100%;
     font-size: 18px;
-    text-align: center;
   }
 
   .btn-valo {
-    font-size: 12px;
-    padding: 8px 20px;
+    padding: 15px 30px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-valo {
+    font-size: 32px;
+  }
+
+  .subtitle-valo {
+    font-size: 24px;
+  }
+
+  .description-valo {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .btn-valo {
+    padding: 10px 20px;
+    font-size: 16px;
   }
 
   .section-valo-2 {
-    height: 250px;
-    font-size: 20px;
+    width: 100%;
+    font-size: 18px;
   }
 }

@@ -11,7 +11,7 @@
 
 .btns-downloads {
   width: 100%;
-  height: 80px;
+  height: 100px;
   background-color:	#ece8e3;
   display: flex;
   justify-content: center;
@@ -109,8 +109,81 @@
   color: #fff;
   margin-top: 10px;
   font-size: 18px;
+  text-align: center;
 }
 .img-footer{
   display: flex;
   justify-content: center;
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .img-footer{
+    height: 150px;
+  }
+}
+@media (min-width: 430px) and (max-width: 768px){
+ 
+  .btns-downloads {
+    height: 200px;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .btns-footer  {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .btns-footer a{
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+
+  .description-footer{
+    margin-top: 5px;
+    font-size: 18px;
+  }
+
+  .img-footer{
+    height: 80px;
+  }
+}
+
+@media (max-width: 430px){
+ 
+  .btns-downloads {
+    height: 200px;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .btns-footer  {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .btns-footer a{
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+
+  .networks-icons{
+    gap: 20px;
+  }
+
+  .description-footer{
+    margin-top: 5px;
+    font-size: 18px;
+  }
+
+  .img-footer{
+    height: 50px;
+    margin-bottom: 20px;
+  }
 }
