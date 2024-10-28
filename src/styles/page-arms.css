@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Oswald:wght@700&family=Bebas+Neue&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.content-all-arms {
+   background-color: 	#1a1a1a;
+   color: #333; 
+   padding: 100px 20px;
+   text-align: center;
+   font-family: 'Oswald', sans-serif;
+}
+
+.title-allarms-valo {
+   font-size: 54px;
+   color: #dc3545; 
+   text-transform: uppercase;
+   margin-bottom: 40px;
+   text-shadow: 2px 6px 8px rgba(0, 0, 0, 0.4);
+}
+
+.container-allarms-valo {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 30px;
+}
+
+.container-allarms-valo > div {
+   background-color: #282828; 
+   border-radius: 10px;
+   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+   padding: 20px;
+   width: 300px; 
+   height: 400px; 
+   text-align: center;
+   transition: transform 0.3s ease, box-shadow 0.3s ease; 
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between; 
+}
+
+.container-allarms-valo > div:hover {
+   transform: scale(1.05);
+   box-shadow: 0 8px 16px rgba(255, 70, 85, 0.6); 
+}
+
+.name-arms {
+   font-size: 30px; 
+   font-weight: bold;
+   color: #dc3545; 
+   margin-bottom: 10px;
+}
+
+.container-allarms-valo img {
+   width: 100%;
+   height: auto;
+   margin: 10px 0;
+   border-radius: 10px;
+
+}
+
+.arma,
+.precie-arms {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 10px 0;
+   color: #fff; 
+   font-family: "Afacad Flux", sans-serif;
+   font-size: 18px;
+}
+
+.type-arms,
+.precie-title-precie {
+   font-weight: bold;
+   color: #dc3545;
+   margin-right: 5px;
+}
+
+@media (max-width: 1024px) {
+   .title-allarms-valo {
+     font-size: 40px;
+     margin-bottom: 30px;
+   }
+ 
+   .container-allarms-valo > div {
+     width: 45%;
+   }
+}
+ 
+@media (max-width: 768px) {
+   .title-allarms-valo {
+     font-size: 36px;
+   }
+ 
+   .container-allarms-valo > div {
+     width: 80%;
+   }
+}
+ 
+@media (max-width: 480px) {
+   .title-allarms-valo {
+     font-size: 28px;
+   }
+ 
+   .container-allarms-valo > div {
+     width: 100%;
+     padding: 15px;
+   }
+ 
+   .name-arms {
+     font-size: 20px;
+   }
+}

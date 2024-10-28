@@ -8,10 +8,6 @@ const Footer = () => {
    return (
       <>
          <div className="container-footer">
-            <div className="btns-downloads">
-               <a href="https://playvalorant.com/es-mx/download/">Descarga el Juego</a>
-               <a href="https://play.google.com/store/apps/details?id=com.riotgames.mobile.leagueconnect&referrer=singular_click_id%3D36cdef1c-67f7-46fb-a61d-6c5477e13285">Descarga la aplicación mobile</a>
-            </div>
             <div className="content-footer">
                <div className="networks-icons">
                   <div className="icon-footer">

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Oswald:wght@700&family=Bebas+Neue&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-maps {
+  background-color: #1a1a1a; 
+  color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+  font-family: 'Afacad Flux', sans-serif;
+}
+
+.title-maps {
+  font-size: 64px; 
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: -1.5px;
+  color: #ff4655; 
+  margin-bottom: 50px;
+  text-shadow: 3px 8px 12px rgba(0, 0, 0, 0.6); 
+}
+
+.maps-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px; 
+}
+
+.map-item {
+  background-color: #282828; 
+  border-radius: 12px; 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 600px; 
+  transition: transform 0.2s ease, box-shadow 0.2s ease; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 70, 85, 0.6);
+}
+
+.map-name {
+  font-size: 42px;
+  font-weight: bold;
+  color: #ff4655; 
+}
+
+.map-title-description {
+  color: #ff4655;
+  font-weight: bold;
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+.map-img {
+  width: 550px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+}
+
+.maps-description-content {
+  display: flex;   
+  flex-direction: column;
+  margin: 10px;
+}
+
+.map-caracteres {
+  color: #ffffff; 
+}
+
+.map-country,
+.map-country span {
+  color: #ff283a; 
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  .title-maps {
+    font-size: 60px;
+    margin-bottom: 30px;
+  }
+
+  .map-item {
+    width: 80%;
+  }
+
+  .map-img {
+    width: 100%;
+  }
+
+  .map-name {
+    font-size: 36px;
+  }
+
+  .map-title-description {
+    font-size: 28px;
+  }
+
+  .map-country,
+  .map-country span {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-maps {
+    font-size: 50px;
+  }
+
+  .map-item {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .map-name {
+    font-size: 28px;
+  }
+
+  .map-title-description {
+    font-size: 24px;
+  }
+
+  .map-country,
+  .map-country span {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-maps {
+    font-size: 40px;
+  }
+
+  .map-item {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .map-name {
+    font-size: 24px;
+  }
+
+  .map-title-description {
+    font-size: 20px;
+  }
+
+  .map-country,
+  .map-country span {
+    font-size: 16px;
+  }
+}

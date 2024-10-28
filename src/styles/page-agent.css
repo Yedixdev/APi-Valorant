@@ -1,0 +1,132 @@
+@import url('https://fonts.cdnfonts.com/css/valorant');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Oswald:wght@700&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-agent {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+  font-family: 'Afacad Flux', sans-serif;
+}
+
+.title-page-agent {
+  font-size: 64px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: -1.5px;
+  color: #ff4655;
+  margin-bottom: 50px;
+  text-shadow: 3px 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+.page-agent div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.content-all-agent {
+  background-color: #282828;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 350px;
+  min-height: 620px;
+  text-align: center;
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-all-agent:hover {
+  transform: scale(1.07);
+  box-shadow: 0 8px 16px rgba(255, 70, 85, 0.6);
+}
+
+.title-all-agent {
+  font-size: 28px;
+  color: #ff4655;
+  font-family: 'Bebas Neue', sans-serif;
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+
+.content-all-agent img {
+  width: 250px;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 3px solid #ff4655;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.description-page-agent {
+  font-size: 18px;
+  color: #dcdcdc;
+  margin-top: 10px;
+  line-height: 1.4;
+}
+
+.description-page-agent span {
+  font-weight: bold;
+  color: #ff4655;
+  font-size: 20px;
+}
+
+.rol-page-agent {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #dcdcdc;
+  font-weight: bold;
+}
+
+.rol-page-agent span {
+  color: #ff4655;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .title-page-agent {
+    font-size: 48px;
+  }
+
+  .content-all-agent {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-page-agent {
+    font-size: 40px;
+  }
+
+  .content-all-agent {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-page-agent {
+    font-size: 32px;
+  }
+
+  .content-all-agent {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .title-all-agent {
+    font-size: 24px;
+  }
+}
