@@ -100,6 +100,9 @@
 }
  
 @media (max-width: 768px) {
+   .content-all-arms {
+      padding: 100px 20px;
+   }
    .title-allarms-valo {
      font-size: 36px;
    }
@@ -110,6 +113,9 @@
 }
  
 @media (max-width: 480px) {
+   .content-all-arms {
+      padding: 100px 20px;
+   }
    .title-allarms-valo {
      font-size: 28px;
    }
