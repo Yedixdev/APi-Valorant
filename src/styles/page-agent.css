@@ -109,6 +109,9 @@
 }
 
 @media (max-width: 768px) {
+  .content-all-arms {
+    padding: 100px 20px;
+ }
   .title-page-agent {
     font-size: 40px;
   }
@@ -119,6 +122,9 @@
 }
 
 @media (max-width: 480px) {
+  .content-all-arms {
+    padding: 100px 20px;
+ }
   .title-page-agent {
     font-size: 32px;
   }

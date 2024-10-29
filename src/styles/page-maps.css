@@ -118,6 +118,9 @@
 }
 
 @media (max-width: 768px) {
+  .content-all-arms {
+    padding: 100px 20px;
+ }
   .title-maps {
     font-size: 50px;
   }
@@ -142,6 +145,9 @@
 }
 
 @media (max-width: 480px) {
+  .content-all-arms {
+    padding: 100px 20px;
+ }
   .title-maps {
     font-size: 40px;
   }

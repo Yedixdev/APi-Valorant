@@ -1,0 +1,30 @@
+@import url('https://fonts.cdnfonts.com/css/valorant');
+
+.error {
+  background-color: #1a1a1a; 
+  color: #ffffff; 
+  font-family: 'Valorant', sans-serif; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  text-align: center;
+}
+
+.container-error {
+  background:	#ff4655; 
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.7); 
+}
+
+h1 {
+  font-size: 48px; 
+  margin-bottom: 20px; 
+}
+
+p {
+  font-size: 20px;
+  margin: 0;
+  font-family: 'Afacad Flux', sans-serif;
+}
