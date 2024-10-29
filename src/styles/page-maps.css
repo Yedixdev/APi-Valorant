@@ -87,6 +87,9 @@
 }
 
 @media (max-width: 1024px) {
+  .content-all-arms {
+    padding: 100px 20px;
+ }
   .title-maps {
     font-size: 60px;
     margin-bottom: 30px;

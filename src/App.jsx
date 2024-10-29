@@ -6,7 +6,6 @@ import Home from "./pages/Home";
 import Agents from "./pages/Agents";
 import Maps from "./pages/Maps";
 import Arms from "./pages/Arms"
-import Footer from "./components/Footer";
 
 function App() {
   return (

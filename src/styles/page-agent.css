@@ -95,8 +95,10 @@
   color: #ff4655;
 }
 
-/* Responsive adjustments */
 @media (max-width: 1024px) {
+  .content-all-arms {
+    padding: 100px 20px;
+ }
   .title-page-agent {
     font-size: 48px;
   }
