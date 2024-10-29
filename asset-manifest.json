@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Yedixdev/APi-Valorant.git/static/css/main.b1d92457.css",
-    "main.js": "/Yedixdev/APi-Valorant.git/static/js/main.2b614b36.js",
-    "static/media/welcome.valorant.mp4": "/Yedixdev/APi-Valorant.git/static/media/welcome.valorant.401da61ad52d1f6adb26.mp4",
-    "static/media/plays.jpg": "/Yedixdev/APi-Valorant.git/static/media/plays.e860e63d9d0bfd2b2a2b.jpg",
-    "static/media/valroantagents.png": "/Yedixdev/APi-Valorant.git/static/media/valroantagents.31d7ce5a3637e45d8b25.png",
-    "static/media/vyse.webp": "/Yedixdev/APi-Valorant.git/static/media/vyse.aab57118cc79bc94ee00.webp",
-    "static/media/consolas.jpg": "/Yedixdev/APi-Valorant.git/static/media/consolas.4a47dea07132d8a0848a.jpg",
-    "static/media/newagent.jpg": "/Yedixdev/APi-Valorant.git/static/media/newagent.871962f784ab8c9c4d66.jpg",
-    "static/media/arms.webp": "/Yedixdev/APi-Valorant.git/static/media/arms.b7fda961a8b511d96c4b.webp",
-    "static/media/map.jpg": "/Yedixdev/APi-Valorant.git/static/media/map.2f130ac3ebc4c20dae2d.jpg",
-    "static/media/icon-3.png": "/Yedixdev/APi-Valorant.git/static/media/icon-3.2d62cb91874efdd50e68.png",
-    "static/media/icon-4.png": "/Yedixdev/APi-Valorant.git/static/media/icon-4.33b42b9255142adbc88a.png",
-    "static/media/icon-2.png": "/Yedixdev/APi-Valorant.git/static/media/icon-2.d38b4e281c501c632215.png",
-    "static/media/icon-1.png": "/Yedixdev/APi-Valorant.git/static/media/icon-1.0a3e1193aad68e684cba.png",
-    "static/media/marca.PNG": "/Yedixdev/APi-Valorant.git/static/media/marca.f4a9a47307a886160797.PNG",
-    "static/media/riot-games.jfif": "/Yedixdev/APi-Valorant.git/static/media/riot-games.1947e735c3fc781904a8.jfif",
-    "index.html": "/Yedixdev/APi-Valorant.git/index.html",
-    "main.b1d92457.css.map": "/Yedixdev/APi-Valorant.git/static/css/main.b1d92457.css.map",
-    "main.2b614b36.js.map": "/Yedixdev/APi-Valorant.git/static/js/main.2b614b36.js.map"
+    "main.css": "/APi-Valorant/static/css/main.10640508.css",
+    "main.js": "/APi-Valorant/static/js/main.bd3386ce.js",
+    "static/media/welcome.valorant.mp4": "/APi-Valorant/static/media/welcome.valorant.401da61ad52d1f6adb26.mp4",
+    "static/media/plays.jpg": "/APi-Valorant/static/media/plays.e860e63d9d0bfd2b2a2b.jpg",
+    "static/media/valroantagents.png": "/APi-Valorant/static/media/valroantagents.31d7ce5a3637e45d8b25.png",
+    "static/media/vyse.webp": "/APi-Valorant/static/media/vyse.aab57118cc79bc94ee00.webp",
+    "static/media/consolas.jpg": "/APi-Valorant/static/media/consolas.4a47dea07132d8a0848a.jpg",
+    "static/media/newagent.jpg": "/APi-Valorant/static/media/newagent.871962f784ab8c9c4d66.jpg",
+    "static/media/arms.webp": "/APi-Valorant/static/media/arms.b7fda961a8b511d96c4b.webp",
+    "static/media/map.jpg": "/APi-Valorant/static/media/map.2f130ac3ebc4c20dae2d.jpg",
+    "static/media/icon-3.png": "/APi-Valorant/static/media/icon-3.2d62cb91874efdd50e68.png",
+    "static/media/icon-4.png": "/APi-Valorant/static/media/icon-4.33b42b9255142adbc88a.png",
+    "static/media/icon-2.png": "/APi-Valorant/static/media/icon-2.d38b4e281c501c632215.png",
+    "static/media/icon-1.png": "/APi-Valorant/static/media/icon-1.0a3e1193aad68e684cba.png",
+    "static/media/marca.PNG": "/APi-Valorant/static/media/marca.f4a9a47307a886160797.PNG",
+    "static/media/riot-games.jfif": "/APi-Valorant/static/media/riot-games.1947e735c3fc781904a8.jfif",
+    "index.html": "/APi-Valorant/index.html",
+    "main.10640508.css.map": "/APi-Valorant/static/css/main.10640508.css.map",
+    "main.bd3386ce.js.map": "/APi-Valorant/static/js/main.bd3386ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1d92457.css",
-    "static/js/main.2b614b36.js"
+    "static/css/main.10640508.css",
+    "static/js/main.bd3386ce.js"
   ]
 }
