@@ -14,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/APi-Valorant" element={<Home />} />
         <Route path="/agents" element={<Agents />} />
         <Route path="/maps" element={<Maps />} />
         <Route path="/Arms" element={<Arms />} />
