@@ -20,7 +20,7 @@ const Agents = () => {
   }, []);
 
   return (
-   <>
+   <div>
       <div className="page-agent">
          <h1 className="title-page-agent">Agentes de Valorant</h1>
          <div>
@@ -39,7 +39,7 @@ const Agents = () => {
          </div>
       </div>
       <Footer/>
-   </>
+   </div>
  );
 };
 
