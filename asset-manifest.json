@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/APi-Valorant/static/css/main.10640508.css",
-    "main.js": "/APi-Valorant/static/js/main.262a172f.js",
+    "main.css": "/APi-Valorant/static/css/main.c832cdd8.css",
+    "main.js": "/APi-Valorant/static/js/main.e63ca35d.js",
     "static/media/welcome.valorant.mp4": "/APi-Valorant/static/media/welcome.valorant.401da61ad52d1f6adb26.mp4",
     "static/media/plays.jpg": "/APi-Valorant/static/media/plays.e860e63d9d0bfd2b2a2b.jpg",
     "static/media/valroantagents.png": "/APi-Valorant/static/media/valroantagents.31d7ce5a3637e45d8b25.png",
@@ -17,11 +17,11 @@
     "static/media/marca.PNG": "/APi-Valorant/static/media/marca.f4a9a47307a886160797.PNG",
     "static/media/riot-games.jfif": "/APi-Valorant/static/media/riot-games.1947e735c3fc781904a8.jfif",
     "index.html": "/APi-Valorant/index.html",
-    "main.10640508.css.map": "/APi-Valorant/static/css/main.10640508.css.map",
-    "main.262a172f.js.map": "/APi-Valorant/static/js/main.262a172f.js.map"
+    "main.c832cdd8.css.map": "/APi-Valorant/static/css/main.c832cdd8.css.map",
+    "main.e63ca35d.js.map": "/APi-Valorant/static/js/main.e63ca35d.js.map"
   },
   "entrypoints": [
-    "static/css/main.10640508.css",
-    "static/js/main.262a172f.js"
+    "static/css/main.c832cdd8.css",
+    "static/js/main.e63ca35d.js"
   ]
 }
