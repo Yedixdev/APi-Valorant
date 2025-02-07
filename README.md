@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# 🎯 Valorant Stats - Seguimiento de Estadísticas de Valorant 🚀  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Valorant Stats** es una aplicación web que consume la **API oficial de Valorant** para ofrecer un seguimiento detallado de los agentes, mapas y armamento del popular videojuego desarrollado por **Riot Games**.  
 
-## Available Scripts
+Diseñada con una interfaz única e interactiva, esta plataforma captura la esencia del juego con un estilo visual auténtico inspirado en **Valorant**.  
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🛠️ Funcionalidades Principales  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✔️ **📊 Consulta de Estadísticas:** Accede a información actualizada sobre agentes, mapas y armas.  
+✔️ **🔍 Exploración de Agentes:** Conoce las habilidades, roles y características de cada personaje.  
+✔️ **🗺️ Mapas y Estrategias:** Descubre detalles de los mapas con vistas detalladas y análisis estratégico.  
+✔️ **🔫 Armamento:** Visualiza información sobre todas las armas disponibles en Valorant.  
+✔️ **🎨 Diseño Interactivo:** Interfaz moderna y animada que captura la esencia visual del juego.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🔧 Tecnologías Utilizadas  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🔹 **JavaScript** – Funcionalidad e interactividad.  
+🔹 **React.js** – Creación de una interfaz dinámica y eficiente.  
+🔹 **CSS3** – Estilos personalizados con efectos visuales inspirados en Valorant.  
+🔹 **API de Valorant** – Integración de datos oficiales del juego.  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔗 Enlaces del Proyecto  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🌐 **[Visitar la Aplicación](https://yedydevx.github.io/APi-Valorant)**  
+📂 **[Repositorio en GitHub](https://github.com/yourusername/valorant-stats)**  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🎮 **¡Explora Valorant como nunca antes con Valorant Stats!** 🔥💥  
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
